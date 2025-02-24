@@ -24,7 +24,7 @@ class BaseRobot:
         self.coords[0] -= move
 
     def get_info(self) -> str:
-        return f"Robot: {self.name}, Weight: {self.weight} Coordinates: {self.coords}"
+        return f"Robot: {self.name}, Weight: {self.weight}"
 
 
 class FlyingRobot(BaseRobot):
